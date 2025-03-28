@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hari Krishnan A | Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+        }
+
+        header {
+            background: linear-gradient(to right, #0073e6, #00aaff);
+            color: white;
+            padding: 2rem 0;
+        }
+
+        .profile-picture {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 10px auto;
+            display: block;
+            border: 3px solid white;
+        }
+
+        nav {
+            background: #333;
+            padding: 1rem 0;
+        }
+
+        nav ul {
+            list-style: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 2rem 0;
+        }
+
+        section {
+            background: white;
+            padding: 2rem;
+            margin: 1rem 0;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #0073e6;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin: 5px 0;
+            font-size: 1.1rem;
+        }
+
+        .download-btn {
+            background: #0073e6;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 10px;
+            font-size: 1.1rem;
+        }
+
+        .download-btn:hover {
+            background: #005bb5;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="image/photo.jpg" alt="Hari Krishnan A" class="profile-picture">
+        <h1>Hari Krishnan A</h1>
+        <p>| Web Developer | software Developer</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                Im a Experienced web and software developer with a strong foundation in building dynamic, user-centric applications and a passion for leveraging modern technologies to solve complex problems and deliver high-quality solutions.
+            </p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <p>medras University - software developer</p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>python </li>
+                <li>Java</li>
+                <li>data  structure using c++</li>
+                <li>c language </li>
+                <li>C++</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li><a href="#">E-Commerce Website</a></li>
+                <li><a href="#">Cloud Security IBM</a></li>
+                <li><a href="#">AI Chatbot for IBM</a></li>
+                <li><a href="#">College Portal System</a></li>
+            </ul>
+        </section>
+
+        <section id="resume">
+            <h2>Resume</h2>
+            <a href="resume/hari resume.pdf" target="_blank" class="download-btn">Download CV</a>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Hari Krishnan A</p>
+    </footer>
+
+</body>
+</html>
